@@ -87,6 +87,7 @@ def main():
             if image_folder:
                 if os.path.exists(image_folder):
                     st.write(f"**Image folder path**: {image_folder}")
+                    st.success("The specified folder exists.")
                 else:
                     st.error("The specified folder does not exist.")
 
